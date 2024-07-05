@@ -1,0 +1,48 @@
+/* MyBids.css */
+
+.my-bids-container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-bids-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bids-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bid-item {
+  background-color: #eefef4;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bid-item:hover {
+  transform: scale(1.02);
+}
+
+.bid-price {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.bid-time {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Add more styles as needed */
