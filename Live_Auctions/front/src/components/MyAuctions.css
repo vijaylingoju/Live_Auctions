@@ -1,0 +1,57 @@
+/* MyAuctions.css */
+
+.my-auctions-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .my-auctions-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .auctions-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .auction-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auction-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .auction-details {
+    padding: 15px;
+  }
+  
+  .auction-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .auction-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .auction-bid-price,
+  .auction-present-price,
+  .auction-post-time,
+  .auction-end-time {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
