@@ -1,0 +1,94 @@
+/* HowToBid.css */
+
+/* Container Styles */
+.how-to-bid-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styles */
+  .how-to-bid-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2ecc71; /* Money Green */
+  }
+  
+  /* Section Styles */
+  .bid-section {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Left Content Styles */
+  .left-content {
+    width: 45%;
+    text-align: center;
+  }
+  
+  .left-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Right Content Styles */
+  .right-content {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .right-content .icon {
+    font-size: 50px;
+    margin-right: 15px;
+    color: #2ecc71; /* Money Green */
+  }
+  
+  .right-content .step-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Message Styles */
+  .congrats-message {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    color: #2ecc71; /* Money Green */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .how-to-bid-container {
+      padding: 15px;
+    }
+  
+    .how-to-bid-title {
+      font-size: 2rem;
+    }
+  
+    .right-content {
+      width: 100%;
+    }
+  
+    .right-content .icon {
+      font-size: 40px;
+    }
+  
+    .right-content .step-description {
+      font-size: 1rem;
+    }
+  
+    .congrats-message {
+      font-size: 1.2rem;
+    }
+  }
+  
